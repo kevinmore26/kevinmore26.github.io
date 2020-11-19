@@ -1,0 +1,387 @@
+/*header 
+{
+    background: black;
+     
+}/*
+/*selector descendente*/
+/*body header div nav ol li a {
+
+}*/
+
+body{
+    background: white;
+    padding: 0px;
+    padding-bottom: 0px;
+  
+  }
+  h2
+  {
+    display: flex;
+    justify-content: center;
+  }
+  .menu
+  {
+    height: inherit;
+  }
+  .header ol
+  {
+    display: flex;
+    height: inherit;
+    
+  }
+  .header ol li 
+  {
+  height: inherit;
+  }
+  .header a {
+    color: white;
+    text-decoration: none;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    padding: 0px 40px;
+  
+  }
+  figure{
+    margin:0;
+  }
+  body
+  {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    
+  }
+  h1
+  {
+      font-family: monospace;
+      color: white;
+      font-size: 30px;
+      line-height: 2;
+      letter-spacing: -2px;
+      margin: 0px 150px 70px 30px;
+      box-sizing: border-box;
+  
+  }
+  h6{
+    display: flex;
+    align-items: center;
+  }
+  .hero h1 strong
+  {
+    color: #156b47;
+      
+  }
+  .hero h1
+  {
+    display:inline-block;
+    justify-content: center;
+    padding: 130px;
+  }
+  .project-image
+  {
+    height: 400px;
+    background-image: url('..images/platzi-video-react-native.png');
+    background-position: right;
+  }
+  .experience
+  {
+    padding: 15px;
+    display: flex;
+    color: black;
+    width: 2000px;
+    
+  }
+  
+  .project
+  {
+    border: 2px solid black;
+    border-radius: 0px;
+    margin:auto;
+    margin-left: 0;
+    width:100%;
+    margin-bottom: 15px;
+    padding: 50px;
+    margin: 0px;
+    margin-bottom: 10px;
+    background:   ;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    margin-top: 25px;
+    background-color: #5e2129;
+    
+  
+  
+  
+  }
+  .project-description
+  {
+    display: flex ;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+    height: 400px;
+    letter-spacing: 1px;
+  
+    
+    
+  }
+  .hero{
+  
+    height: 400px;
+    background-color: black;
+    background-image: url(../images/tomy.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+    background-position: 1130px;
+    padding: 40px;
+    margin: -80px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 1429px;
+    
+  
+  
+  
+  
+  }
+  .scxd
+  {
+    background-color: #5e2129;
+    padding: 20px;
+    height: 5px
+    ;
+    display: flex;
+    justify-content: left;
+  }
+  .contact
+  {
+    display: flex;
+    padding: 2px;
+    background-color: #5e2129;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+  }
+  .header
+  {
+    background-color: black;
+    color: white; 
+    display: flex;
+    justify-content: space-between; 
+    height: 60px;
+    align-items: center;
+    /*Fijar cabecera*/
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la pÃ¡gina */
+  left: 0; /* Posicionamos la cabecera al lado izquierdo */
+  top: 0; /* Posicionamos la cabecera pegada arriba */
+  position: fixed;
+  }
+  .link
+  {
+    display: flex;
+    align-items: center;
+  }
+  .menu
+  
+  
+  .port
+  {
+    background:#5e2129;
+    display: block;
+    padding: 0px;
+    color: black;
+    text-transform: uppercase;
+   border-top: 40px;
+   padding: 50px;
+  
+  }
+  .project-date
+  {
+    display: flex;
+    align-items: flex-end;
+  }
+  .footer
+  {
+    background-color: black;
+  }
+  
+  .event-image
+  {
+    display:block;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 200px;
+    object-fit: contain;
+    
+  }
+  .project-title
+  {
+    color:black
+      
+  }
+  .project-url
+  {
+    height: 20px;
+  }
+  .event-title
+  {
+    color: white;
+    margin-left: -44px
+  }
+  .event-description
+  {
+  color: black;
+  padding-right: 32px;
+   
+  }
+  .cdw
+  {
+    background-color: black;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    margin: 0px;
+    height: 0px;
+  }
+    .event
+    {
+      border: 4px solid black;
+      margin: 1px;
+      width: 480px;
+      height: 250px;
+      border-radius: 10px;
+      overflow: hidden;
+      display: flex;
+      flex-shrink: 0;
+      background-color: #5e2129;
+      padding-right: 37px;
+      padding-left: 1px;
+      margin: 230px;
+      margin-top: 2px;
+      margin-bottom: 20px;
+  
+    }
+  .event-list
+  {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 190px;
+    padding-top: 1px;
+    padding-bottom: 30px;
+  
+  
+  }
+  h3
+  {
+    color: black;
+    display: flex;
+    justify-content: center;
+  }
+  .event-url
+  {
+    
+    color: black;
+    text-decoration: none;
+    padding: 9px;
+    width: 80px;
+    height: 30px;
+    border: 2px solid black;
+    margin-left: 29px;
+    margin-bottom: 10px;
+  }
+  .logo1
+  {
+    padding: 33px;
+    margin: 20px
+  }
+  .form-email
+  {
+    padding: 20px;
+  
+  }
+  
+  .form-email button
+  {
+    
+    display: block;
+  
+  }
+  
+  button{
+    width: 61px;
+    height: 24px;
+    display: block;
+    margin-top: 14px;
+    margin-left: 20px;
+    border: 1px solid white;
+    background: transparent;
+    color: white;
+    border-radius: 5px ;
+  
+    
+  }
+  input
+  {
+    background-image: url('../images/envelope.svg');
+    background-size: 20px 20px ;
+    background-position-x: 10px ;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    padding: 5px ;
+    border-color: black;
+    height: 0px;
+      display: flex;
+      justify-content: left;
+      padding-bottom: 24px;
+      padding-top: 24px;
+      padding-left: 40px;
+      margin-left: -60px;
+      border: 3px solid black;
+  
+  }
+  .social
+  {
+    display: flex;
+    justify-content: right;
+    
+  }
+  .social-link
+  {
+    display:flex;
+    justify-content: right;
+    width: 50px;
+    height: 50px;
+  
+  }
+  
+  .social-link.instagram
+  {
+    display: flex;
+    justify-content: right;
+    background-image: url('../images/insta4.png');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    margin-left: 45px;
+  
+  }
+  .social-link.github
+  {
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/github3.png');
+    background-size: 50px 50px;
+    margin-left: 33px;
+  }
+  .social-link.facebook
+  {
+    display: flex;
+    justify-content: right;
+    background-image: url('../images/facexd.png');
+    background-size: 50px 50px;
+    background-repeat: no-repeat;
+    margin-left: 793px;
+  }
