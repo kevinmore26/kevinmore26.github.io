@@ -7,381 +7,862 @@
 /*body header div nav ol li a {
 
 }*/
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?wknn8y');
+  src:  url('fonts/icomoon.eot?wknn8y#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wknn8y') format('truetype'),
+    url('fonts/icomoon.woff?wknn8y') format('woff'),
+    url('fonts/icomoon.svg?wknn8y#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e900";
+}
+
 
 body{
-    background: white;
-    padding: 0px;
-    padding-bottom: 0px;
-  
-  }
-  h2
-  {
-    display: flex;
-    justify-content: center;
-  }
-  .menu
-  {
-    height: inherit;
-  }
-  .header ol
-  {
-    display: flex;
-    height: inherit;
-    
-  }
-  .header ol li 
-  {
+  background: white;
+  padding: 0px;
+  padding-bottom: 0px;
+
+}
+h2
+{
+  display: flex;
+  justify-content: center;
+}
+.menu
+{
   height: inherit;
-  }
-  .header a {
+  position: relative;
+  left: -39px;
+}
+.header ol
+{
+  display: flex;
+  height: inherit;
+  
+}
+.header ol li 
+{
+height: inherit;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 8px 40px;
+
+}
+figure{
+  margin:0;
+}
+body
+{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+  
+}
+h1
+{
+    font-family: monospace;
     color: white;
-    text-decoration: none;
-    height: 30px;
-    display: flex;
-    align-items: center;
-    padding: 0px 40px;
-  
-  }
-  figure{
-    margin:0;
-  }
-  body
-  {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
-    
-  }
-  h1
-  {
-      font-family: monospace;
-      color: white;
-      font-size: 30px;
-      line-height: 2;
-      letter-spacing: -2px;
-      margin: 0px 150px 70px 30px;
-      box-sizing: border-box;
-  
-  }
-  h6{
-    display: flex;
-    align-items: center;
-  }
-  .hero h1 strong
-  {
-    color: #156b47;
-      
-  }
-  .hero h1
-  {
-    display:inline-block;
-    justify-content: center;
-    padding: 130px;
-  }
-  .project-image
-  {
-    height: 400px;
-    background-image: url('..images/platzi-video-react-native.png');
-    background-position: right;
-  }
-  .experience
-  {
-    padding: 15px;
-    display: flex;
-    color: black;
-    width: 2000px;
-    
-  }
-  
-  .project
-  {
-    border: 2px solid black;
-    border-radius: 0px;
-    margin:auto;
-    margin-left: 0;
-    width:100%;
-    margin-bottom: 15px;
-    padding: 50px;
-    margin: 0px;
-    margin-bottom: 10px;
-    background:   ;
-    display: flex;
-    justify-content: space-between;
+    font-size: 30px;
+    line-height: 2;
+    letter-spacing: -2px;
+    margin: 0px 150px 70px 30px;
     box-sizing: border-box;
-    margin-top: 25px;
-    background-color: #5e2129;
+
+}
+h6{
+  display: flex;
+  align-items: center;
+}
+.hero h1 strong
+{
+  color: #156b47;
     
+}
+.hero h1
+{
+  display:inline-block;
+  justify-content: center;
+  /* padding: 130px; */
+  position: relative;
+  top: 41px;
+}
+.project-image
+{
+  /* height: 400px; */
+  background-image: url('..images/platzi-video-react-native.png');
+  background-position: right;
+}
+
+.experience
+{
+  padding: 15px;
+  display: flex;
+  color: black;
+  width: 2000px;
+  
+}
+
+.project
+{
+  border: 2px solid black;
+  border-radius: 0px;
+  margin:auto;
+  margin-left: 0;
+  width:100%;
+  margin-bottom: 15px;
+  padding: 50px;
+  margin: 0px;
+  margin-bottom: 10px;
+  
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin-top: 25px;
+  background-color: #5e2129;
+  
+
+
+
+}
+.project-description
+{
+  display: flex;
+  align-items: center;
+  padding: 0px;
+  margin: 0px;
+  height: 280px;
+  letter-spacing: 1px;
+}
+.hero{
+
+/* height: 450px; */
+
+background-color: black;
+
+background-image: url(images/tomy.jpg);
+
+background-size: 300px;
+
+background-repeat: no-repeat;
+
+background-position: 100%;
+
+padding: 33px;
+
+/* margin: -80px; */
+
+/* margin-bottom: 13px; */
+
+box-sizing: border-box;
+
+width: 100%;
+
+display: flex;
+
+flex-wrap:wrap;
+
+padding-top: 0px;
+}
+.scxd
+{
+  background-color: #5e2129;
+  padding: 20px;
+  height: 5px
+  ;
+  display: flex;
+  justify-content: left;
+}
+.contact
+{
+  display: flex;
+  padding: 2px;
+  background-color: #5e2129;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  position: relative;
+}
+.header
+{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: black;
+  flex-wrap: wrap;
+  
+  justify-content: space-between; 
+ 
+  
+  /*Fijar cabecera*/
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la pÃƒÆ’Ã†â€™Ãƒâ€šÃ‚Â¡gina */
+left: 0; /* Posicionamos la cabecera al lado izquierdo */
+top: 0; /* Posicionamos la cabecera pegada arriba */
+position: fixed;
+}
+.link
+{
+  display: flex;
+  align-items: center;
+}
+.menu
+
+
+.port
+{
+  background:#5e2129;
+  display: block;
+  padding: 0px;
+  color: black;
+  text-transform: uppercase;
+ border-top: 40px;
+ padding: 50px;
+
+}
+
+.project-date
+{
+  display: flex;
+  align-items: flex-end;
+}
+.footer
+{
+  background-color: black;
+}
+.flexible-vieo
+{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+
   
   
+  /* padding-top: 2px; */
+ 
+}
+.youtbe-vieo
+{
+position: absolute;
+
+
+
+
+
+}
+.event-image
+{
+  display:block;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 200px;
+  object-fit: contain;
   
-  }
-  .project-description
+  
+}
+.project-title
+{
+  color:black
+    
+}
+.project-url
+{
+  height: 20px;
+}
+.event-title
+{
+  color: white;
+  margin-left: -44px
+}
+.event-description
+{
+color: black;
+padding-right: 32px;
+ 
+}
+.cdw
+{
+  background-color: black;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px;
+  margin: 0px;
+  height: 0px;
+}
+  .event
   {
-    display: flex ;
-    align-items: center;
-    padding: 0px;
-    margin: 0px;
-    height: 400px;
-    letter-spacing: 1px;
-  
-    
-    
-  }
-  .hero{
-  
-    height: 400px;
-    background-color: black;
-    background-image: url(../images/tomy.jpg);
-    background-size: 300px;
-    background-repeat: no-repeat;
-    background-position: 1130px;
-    padding: 40px;
-    margin: -80px;
-    margin-bottom: 10px;
-    box-sizing: border-box;
-    width: 1429px;
-    
-  
-  
-  
-  
-  }
-  .scxd
-  {
+    border: 4px solid black;
+    margin: 1px;
+    width: 480px;
+    height: 250px;
+    border-radius: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-shrink: 0;
     background-color: #5e2129;
-    padding: 20px;
-    height: 5px
-    ;
+    padding-right: 37px;
+    padding-left: 1px;
+    margin: 230px;
+    margin-top: 2px;
+    margin-bottom: 20px;
+
+  }
+.event-list
+{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 190px;
+  padding-top: 1px;
+  padding-bottom: 30px;
+
+
+}
+.HTML-video
+{
+  max-width: 100%;
+  max-height: 275px;
+}
+h3
+{
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+.event-url
+{
+  
+  color: black;
+  text-decoration: none;
+  padding: 9px;
+  width: 80px;
+  height: 30px;
+  border: 2px solid black;
+  margin-left: 29px;
+  margin-bottom: 10px;
+}
+.logo1
+{
+ 
+}
+.form-email
+{
+  position: relative;
+  padding: 20px;
+
+}
+
+.form-email button
+{
+  
+  display: block;
+
+}
+
+button{
+  width: 61px;
+  height: 24px;
+  display: block;
+  margin-top: 14px;
+  margin-left: 20px;
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  border-radius: 5px ;
+
+  
+}
+input
+{
+  background-image: url('images/envelope.svg');
+  background-size: 20px 20px ;
+  background-position-x: 10px ;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  padding: 5px ;
+  border-color: black;
+  height: 0px;
     display: flex;
     justify-content: left;
-  }
-  .contact
-  {
-    display: flex;
-    padding: 2px;
-    background-color: #5e2129;
-    display: flex;
-    justify-content: center;
-    padding-bottom: 20px;
-  }
-  .header
-  {
-    background-color: black;
-    color: white; 
-    display: flex;
-    justify-content: space-between; 
-    height: 60px;
-    align-items: center;
-    /*Fijar cabecera*/
-    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la pÃ¡gina */
-  left: 0; /* Posicionamos la cabecera al lado izquierdo */
-  top: 0; /* Posicionamos la cabecera pegada arriba */
+    padding-bottom: 24px;
+    padding-top: 24px;
+    padding-left: 40px;
+    margin-left: -60px;
+    border: 3px solid black;
+
+}
+.social
+{
+  display: flex;
+  justify-content: right;
+  position: relative; 
+  
+}
+.social-link
+{
+  display:flex;
+  justify-content: right;
+  width: 50px;
+  height: 50px;
+
+}
+
+.social-link.instagram
+{
+  display: flex;
+  justify-content: right;
+  background-image: url('images/insta4.png');
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  margin-left: 45px;
+
+}
+
+::marker {
+  unicode-bidi: inherit;
+  font-variant-numeric: ordinal;
+  text-transform: none;
+  height: 1px;
+  width: 1px;
+}
+.social-link.github
+{
+  display: flex;
+  justify-content: center;
+  background-image: url('images/github3.png');
+  background-size: 50px 50px;
+  margin-left: 33px;
+}
+.social-link.facebook
+{
+  display: flex;
+  justify-content: right;
+  background-image: url('images/facexd.png');
+  background-size: 50px 50px;
+  background-repeat: no-repeat;
+  margin-left: 793px;
+
+}
+
+
+
+@media screen and (min-width: 1023px)
+{
+  .project-imageContainer img {
+    max-width: 400px;
+    }
+
+    .burger-buttom
+{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: black;
+  display: block;
+  line-height: 40px;
+  text-align: center;
   position: fixed;
-  }
-  .link
-  {
-    display: flex;
-    align-items: center;
-  }
-  .menu
-  
-  
-  .port
-  {
-    background:#5e2129;
-    display: block;
-    padding: 0px;
-    color: black;
-    text-transform: uppercase;
-   border-top: 40px;
-   padding: 50px;
-  
-  }
-  .project-date
-  {
-    display: flex;
-    align-items: flex-end;
-  }
-  .footer
-  {
-    background-color: black;
-  }
-  
-  .event-image
-  {
-    display:block;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-    height: 200px;
-    object-fit: contain;
-    
-  }
-  .project-title
-  {
-    color:black
-      
-  }
-  .project-url
-  {
-    height: 20px;
-  }
-  .event-title
-  {
-    color: white;
-    margin-left: -44px
-  }
-  .event-description
-  {
-  color: black;
-  padding-right: 32px;
-   
-  }
-  .cdw
-  {
-    background-color: black;
-    color:white;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px;
-    margin: 0px;
-    height: 0px;
-  }
+  left: 5px;
+  top: 5px;
+  background: rgba(0, 0, 0, .6);
+}
     .event
     {
-      border: 4px solid black;
-      margin: 1px;
-      width: 480px;
-      height: 250px;
-      border-radius: 10px;
-      overflow: hidden;
-      display: flex;
-      flex-shrink: 0;
-      background-color: #5e2129;
-      padding-right: 37px;
-      padding-left: 1px;
-      margin: 230px;
-      margin-top: 2px;
-      margin-bottom: 20px;
-  
+    padding-right: 37px;
+    /* padding-left: 1px; */
+    /* margin: 44px; */
+    margin-top: -46px;
+    margin-bottom: 20px;
     }
-  .event-list
-  {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 190px;
-    padding-top: 1px;
-    padding-bottom: 30px;
-  
-  
-  }
-  h3
-  {
-    color: black;
-    display: flex;
-    justify-content: center;
-  }
-  .event-url
-  {
-    
-    color: black;
-    text-decoration: none;
-    padding: 9px;
-    width: 80px;
-    height: 30px;
-    border: 2px solid black;
-    margin-left: 29px;
-    margin-bottom: 10px;
-  }
-  .logo1
-  {
-    padding: 33px;
-    margin: 20px
-  }
-  .form-email
-  {
-    padding: 20px;
-  
-  }
-  
-  .form-email button
-  {
-    
-    display: block;
-  
-  }
-  
-  button{
-    width: 61px;
-    height: 24px;
-    display: block;
-    margin-top: 14px;
-    margin-left: 20px;
-    border: 1px solid white;
-    background: transparent;
-    color: white;
-    border-radius: 5px ;
-  
-    
-  }
-  input
-  {
-    background-image: url('../images/envelope.svg');
-    background-size: 20px 20px ;
-    background-position-x: 10px ;
-    background-position-y: center;
-    background-repeat: no-repeat;
-    padding: 5px ;
-    border-color: black;
-    height: 0px;
+    .social-link.facebook
+    {
+      display: block;
+      margin-left: 720px;
+    }
+    .social
+    {
       display: flex;
-      justify-content: left;
-      padding-bottom: 24px;
-      padding-top: 24px;
-      padding-left: 40px;
-      margin-left: -60px;
-      border: 3px solid black;
-  
-  }
-  .social
-  {
-    display: flex;
-    justify-content: right;
+  justify-content: right;
+  position: absolute;
+  right: 50px;
+    }
+    input 
+    {
+      position: absolute;
+      left: 76px;
+    }
+    button 
+    {
+      position: absolute;
+  left: 243px;
+    }
+    .contact{
+      position: relative;
+      padding-bottom: 32px;
+    }
+    .form-email  
+    {
+      position: relative;  
+    }
+    .hero h1
+    {
+      position: relative;
+    top: 72px;
+    }
+    .header
+    {
+      position: fixed;
+      z-index: 11;s
+    }
     
-  }
-  .social-link
-  {
-    display:flex;
-    justify-content: right;
-    width: 50px;
-    height: 50px;
+  }    
+@media screen and (max-width: 769px)   
+{  
+    .header ol 
+    {  
+      padding-right: 275px;  
+      display: block;  
+      height: inherit;  
+      padding-top: 34px;  
+    }  
+    .icon-menu 
+{
+  position: fixed;
+  z-index: 4;
+  color: white;
+ 
+}
+.menu {
+  position: fixed;
+  background-color: rgba(0, 0, 0, .85);
+  z-index: 2;
+  top: 0;
+  left:-100vw; /* Para que el menu se oculte a la izquierda y se cree el efecto al hacer click*/
+  width: 100vw;
+  bottom: 0;/* height: 100vw; */ /*A partir de aqui para centrar*/
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centrar hasta aqui */
+  transition: .3s; /* Para crear efecto de transición */
+}
+.menu.is-active {
+  left: 0;
+}
+    .burger-buttom
+{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: black;
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  left: 5px;
+  top: 5px;
+  background: rgba(0, 0, 0, .6);}
+    .header
+    {
+      position: relative;
+    }
+    .project
+    {
+      display: block;
+    }
+    .event
+    {
+      padding-right: 37px;
+  padding-left: 1px;
+  margin: 44px;
+  margin-top: 2px;
+  margin-bottom: 20px
+    }
+    .social-link.facebook
+    {
+      display: initial;
+      margin-left: 0px;
+
+    }
+    .social-link.instagram
+    {
+      margin-left: 0px;
+    }
+    .social-link.github
+    {
+      margin-left: 0px;
+    }
+    .contact
+    {
+      display: block;
+    }
+    .social
+    {
+      display: flex;
+      justify-content: center;
+      padding-top: 16px;
+      justify-content: space-between;
+      margin: -3px 263px;
+    }
+    
+    input
+    {
+      margin-left:  271px;
+    }
+    button
+    {
+      margin-left: 350px;
+    }
+   
   
+  .project-imageContainer
+  img {
+    max-width: 468px;
+   
+   
   }
-  
-  .social-link.instagram
+  .event
   {
-    display: flex;
-    justify-content: right;
-    background-image: url('../images/insta4.png');
-    background-size: 50px 50px;
-    background-repeat: no-repeat;
-    margin-left: 45px;
-  
-  }
-  .social-link.github
-  {
-    display: flex;
-    justify-content: center;
-    background-image: url('../images/github3.png');
-    background-size: 50px 50px;
-    margin-left: 33px;
+    padding-right: 37px;
+  padding-left: 1px;
+  margin: -52px;
+  margin-top: 2px;
+  margin-bottom: 
+  20px;
   }
   .social-link.facebook
+    {
+      margin-left: 0px;
+    }
+    
+}
+
+@media screen and (max-width: 481px)
+{
+  input
   {
-    display: flex;
-    justify-content: right;
-    background-image: url('../images/facexd.png');
-    background-size: 50px 50px;
-    background-repeat: no-repeat;
-    margin-left: 793px;
+    margin-left: 135px;
   }
+  button {
+    margin-left: 209px;
+  }
+  .menu {
+    position: fixed;
+    background-color: rgba(0, 0, 0, .85);
+    top: 0;
+    left:-100vw; /* Para que el menu se oculte a la izquierda y se cree el efecto al hacer click*/
+    width: 100vw;
+    bottom: 0;/* height: 100vw; */ /*A partir de aqui para centrar*/
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centrar hasta aqui */
+    transition: .3s; /* Para crear efecto de transición */
+}
+.menu.is-active {
+    left: 0;
+}
+  .burger-buttom
+{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: black;
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+  left: 5px;
+  top: 5px;
+  background: rgba(0, 0, 0, .6);
+
+}
+  
+ 
+  .header ol {
+    padding-right: 100px;
+    display: block;
+    height: inherit;
+    padding-top: q;
+    padding: 0;
+  }
+  .header
+    {
+      position: relative;
+    }
+  .project
+    {
+      display: block;
+    }
+    
+    .header a {
+      color: white;
+      text-decoration: none;
+      height: 30px;
+      display: flex;
+      align-items: center;
+      padding: 5px 128px;
+  }
+  .project-imageContainer
+  img {
+    max-width: 468px;
+    max-height: 278px;
+  
+  }
+  .event-image
+  {
+    padding: 10px;
+    padding-right: 2px;
+    margin-left: -52px;
+  }
+  .event
+  {
+    padding-right: 3px;
+  padding-left: 0px;
+  margin: -188px;
+  margin-top: 2px;
+  margin-bottom: 18px;
+  width: 410px;
+  height: 237px;
+  }
+  .icon-menu 
+{
+  position: fixed;
+
+  color: white;
+ 
+}
+  .social-link.facebook
+    {
+      margin-left: 0px;
+    }
+    .social{
+      margin: 0px 126px;  
+      padding-top: 16px;
+      justify-content: space-between;
+    }
+}
+
+@media screen and (max-width: 320px)
+{
+ 
+  .header ol {
+    padding-right: 44px;
+    display: block;
+    height: inherit;
+    padding-top: 0px;
+    padding-left: 59px;
+    padding-bottom: 6px;
+  }
+  .menu {
+    position: fixed;
+    background-color: rgba(0, 0, 0, .85);
+    
+    top: 0;
+    left:-100vw; /* Para que el menu se oculte a la izquierda y se cree el efecto al hacer click*/
+    width: 100vw;
+    bottom: 0;/* height: 100vw; */ /*A partir de aqui para centrar*/
+    display: flex;
+    align-items: center;
+    justify-content: center; /* centrar hasta aqui */
+    transition: .3s; /* Para crear efecto de transición */
+    z-index: 2;
+    
+}
+.menu.is-active {
+    left: 0;
+}
+  .icon-menu 
+{
+  position: fixed;
+  
+  color: white;
+ 
+}
+  .project
+  
+    {
+      display: block;
+    }
+    .header
+    {
+      position: relative;
+    }
+    .burger-buttom
+{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: black;
+  display: block;
+  line-height: 40px;
+  text-align: center;
+  position: fixed;
+
+  left: 5px;
+  top: 5px;
+  background: rgba(0, 0, 0, .6);
+}
+
+  .header a
+    {
+      height: 3px;
+      display: flex;
+      align-items: center;
+      padding: 19px 67px;   
+    }
+    .project-imageContainer img {
+      max-width: 300px;
+      max-height: 189px;
+      }
+    
+    .social-link.facebook
+    {
+      margin-left: 0px;
+    }
+    .social{
+      margin: 3px 68px;
+  padding-top: 16px;
+  justify-content: space-between;
+    }
+    input 
+    {
+      margin-left: 51px
+    }
+    button 
+    {
+      margin-left: 130px;
+    }
+    h2
+    {
+      
+        display: flex;
+        justify-content: center;
+        position: relative;
+        left: 33px;
+    
+  }
+}

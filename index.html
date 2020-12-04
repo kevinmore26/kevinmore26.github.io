@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="es">
   <!-- PARA HACERLE A LA PÁGINA QUE ESTARÁ EN ESPAÑOL -->
@@ -7,8 +8,10 @@
     <link rel="icon" type="image/png" href="images/Kev.png" />
     <link rel="stylesheet" href ="style.css"/>
     <!-- HREF PARA TRAER IMAGENES DE UNA CARPETA, IMAGES PORQUE SABES QUE TU ARCHIVO HTML ESTÁ AHÍ.PONES IMAGES PORQUE ESTÁ EN LA MISMA CARPETA QUE EL HTML Y EL / ES PARA ENTRAR A UNA CARPETA  -->
+    <meta name="viewport" content= "width =device-width, initial-scale=1">
   </head>
   <body>
+    <i class="icon-menu burger-buttom" id="burger-menu"></i> 
     <header class="header">
       <!-- ES PARA LA CABECERA Y SE LE RECOMIENDA QUE LLEVE DE CLASE HEADER PARA SER MÁS ORDENADO :) -->
         <figure>
@@ -42,7 +45,7 @@
         <!-- br es como un enter pero en html y se cierra en sí misma  -->
       </h1>    
     </section>
-    <section id ="Portafolio" class="port">
+    <section id="Portafolio" class="port">
       <!-- Acá llamas los href y le pones un class con cualquier nombre para posteriormente modificarlo en un archivo css -->
       <h2>Portafolio (Proyectos Destacados)</h2>
       <article class="project">
@@ -55,6 +58,8 @@
               <!-- acuerdate que cuando vas a insertar una imagen debes ponerlo dentro de un <figure></figure> -->
             </figure>
       </article>
+    </section>
+    
       <article class="project">
         <h3 class="project-title">Platzi_Video</h3>
         <p class="project-description">Platzi Video fue el resultado de 3 meses de trabajo
@@ -66,38 +71,47 @@
             </figure>
       </article>
     </section>
-    <section id ="experiencia" class="event-list">
-      <h2 class="experience">Más sobre su experiencia</h2>
-      
-      
-      <article class="event">
-        <figure class="event-imageContainer">
-          <img  class="event-image" src="images/tomy.jpg" width="250" />
-        </figure>
-        <div>
-        <h3 class="event-title">PlatziConf México 2018</h3>
-        <p class="event-description">El evento más grande sobre gente que quiere aprender más de internet. En esté evento te comparto como tener una vida de constante aprendizaje.</p>
-        <a class="event-url" href="https://www.youtube.com/watch?v=XP_EHQxu4OI&ab_channel=ESPA%C3%91A" target="_blank">Ver Plática</a>
-        </div>
-      </article>
+    <video class="HTML-video" src="hj.mp4" width="1280" height="720" controls ">
+    </video>
     
-    </section>
-    <section class="scxd">¿Quieres contactar a mi mishi?</section>
+    
+    </event>
+    <section class="scxd"> ¿Quieres contactar a mi mishi? </section>
     <section id ="trabajemosjuntos" class="contact">
       <form action = "/suscripcion/" class="form-email"></form>
-      <input type="datetime" placeholder="Dejanos tu email :)">
-      <button>enviar</button>
+      <input type="datetime" class="datatime " placeholder="Dejanos tu email :)">
+      <button>Enviar</button>
       <div class="social">
         <a href="https://www.facebook.com/kevinmore1401/" target="_blank" class="social-link facebook"></a>
         <a href="https://www.instagram.com/kevinmore26/" target="_blank" class="social-link instagram"></a>
         <a href="https://github.com/kevinmore26" target="_blank" class="social-link github"></a>
       </div>
-    </section>
+    </section >
     <footer class="footer">
       <div>
         <p class="cdw">Estudiante en platzi 2020 :D <img src="images/platzi.png" width="70" alt="Hola"></p>
       </div>
     </footer>
   </body>
+  <script>
+    console.log('Hola mundo');
+
+    const menu= document.querySelector('.menu')
+    console.log(menu);
+    const burgerButton=document.querySelector('#burger-menu');
+    console.log(burgerButton);
+
+    burgerButton.addEventListener('click', hideshow);
+    
+    function hideshow(){
+      if(menu.classList.contains('is-active')){
+      menu.classList.remove('is-active');
+      }
+      else{
+      menu.classList.add('is-active');
+      }
+    }
+
+  </script>
   
 </html>
