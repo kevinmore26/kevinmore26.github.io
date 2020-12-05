@@ -527,7 +527,10 @@ input
     }
     .form-email  
     {
-      position: relative;  
+      position: relative;
+      bottom: 19px;
+    /* display: flex; */
+    right: 661px;  
     }
     .hero h1
     {
@@ -626,16 +629,16 @@ input
       justify-content: center;
       padding-top: 16px;
       justify-content: space-between;
-      margin: -3px 263px;
+      margin: 0px 173px;
     }
     
     input
     {
-      margin-left:  271px;
+      margin-left:  158px;
     }
     button
     {
-      margin-left: 350px;
+      margin-left: 234px;
     }
    
   
@@ -658,17 +661,24 @@ input
     {
       margin-left: 0px;
     }
+    .form-email
+    {
+      
+    justify-content: center;
+    grid-row-gap: 0px;
+    padding-left: 16px;
+    }
     
-}
+
 
 @media screen and (max-width: 481px)
 {
   input
   {
-    margin-left: 135px;
+    margin-left: 48px;
   }
   button {
-    margin-left: 209px;
+    margin-left: 121px;
   }
   .menu {
     position: fixed;
@@ -729,7 +739,7 @@ input
   .project-imageContainer
   img {
     max-width: 468px;
-    max-height: 278px;
+    max-height: 204px;
   
   }
   .event-image
@@ -760,7 +770,7 @@ input
       margin-left: 0px;
     }
     .social{
-      margin: 0px 126px;  
+      margin: -4px 59px; 
       padding-top: 16px;
       justify-content: space-between;
     }
